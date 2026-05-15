@@ -1,0 +1,7 @@
+numpy
+pillow
+scikit-learn
+pandas
+matplotlib
+scikit-image
+reportlab

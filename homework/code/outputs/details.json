@@ -1,0 +1,118 @@
+{
+  "E1_baseline_raw_pixels": {
+    "confusion_matrices": {
+      "validation": [
+        [
+          94,
+          6
+        ],
+        [
+          10,
+          91
+        ]
+      ],
+      "test": [
+        [
+          91,
+          9
+        ],
+        [
+          15,
+          86
+        ]
+      ]
+    },
+    "feature_count": 12288,
+    "train_samples_after_augmentation": 1605,
+    "iterations": 23,
+    "loss": 0.004210436514635924,
+    "decision_threshold": 0.5
+  },
+  "E2_preprocessed_pixels": {
+    "confusion_matrices": {
+      "validation": [
+        [
+          90,
+          10
+        ],
+        [
+          11,
+          90
+        ]
+      ],
+      "test": [
+        [
+          95,
+          5
+        ],
+        [
+          11,
+          90
+        ]
+      ]
+    },
+    "feature_count": 12288,
+    "train_samples_after_augmentation": 1605,
+    "iterations": 25,
+    "loss": 0.0004597294837299526,
+    "decision_threshold": 0.5
+  },
+  "E3_augmented_preprocessed_pixels": {
+    "confusion_matrices": {
+      "validation": [
+        [
+          90,
+          10
+        ],
+        [
+          11,
+          90
+        ]
+      ],
+      "test": [
+        [
+          95,
+          5
+        ],
+        [
+          16,
+          85
+        ]
+      ]
+    },
+    "feature_count": 12288,
+    "train_samples_after_augmentation": 6420,
+    "iterations": 38,
+    "loss": 0.003614471876818013,
+    "decision_threshold": 0.5
+  },
+  "E4_hog_color_postprocessed": {
+    "confusion_matrices": {
+      "validation": [
+        [
+          93,
+          7
+        ],
+        [
+          4,
+          97
+        ]
+      ],
+      "test": [
+        [
+          90,
+          10
+        ],
+        [
+          6,
+          95
+        ]
+      ]
+    },
+    "feature_count": 1812,
+    "train_samples_after_augmentation": 6420,
+    "iterations": 19,
+    "loss": 0.004289809514203856,
+    "decision_threshold": 0.2
+  }
+}
